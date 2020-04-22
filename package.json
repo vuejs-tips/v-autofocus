@@ -2,6 +2,11 @@
   "name": "@vuejs-tips/v-autofocus",
   "version": "0.1.1",
   "description": "Vue autofocus directive",
+  "keywords": [
+    "vue",
+    "directive",
+    "autofocus"
+  ],
   "main": "dist/v-autofocus.common.js",
   "module": "index.js",
   "unpkg": "dist/v-autofocus.umd.js",
