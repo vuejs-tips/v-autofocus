@@ -12,7 +12,7 @@
     "start": "vue serve App.vue",
     "build": "yarn build:lib && yarn build:demo && yarn size",
     "build:lib": "vue build --target lib ./index.js",
-    "build:demo": "cp -f ./public/demo.html ./dist/demo.html",
+    "build:demo": "cp -f ./demo.html ./dist/demo.html",
     "size": "size-limit",
     "serve": "serve ./dist/"
   },
