@@ -1,6 +1,6 @@
 {
   "name": "@vuejs-tips/v-autofocus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue autofocus directive",
   "main": "dist/v-autofocus.common.js",
   "module": "index.js",
