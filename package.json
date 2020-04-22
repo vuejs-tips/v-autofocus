@@ -1,5 +1,5 @@
 {
-  "name": "v-autofocus",
+  "name": "@vuejs-tips/v-autofocus",
   "version": "0.1.0",
   "description": "Vue autofocus directive",
   "main": "dist/v-autofocus.common.js",
@@ -7,6 +7,10 @@
   "unpkg": "dist/v-autofocus.umd.js",
   "jsdelivr": "dist/v-autofocus.umd.js",
   "author": "Marcos Neves",
+  "repository": {
+    "url": "https://github.com/vuejs-tips/v-autofocus",
+    "type": "git"
+  },
   "license": "MIT",
   "scripts": {
     "start": "vue serve App.vue",
