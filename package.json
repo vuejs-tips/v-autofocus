@@ -17,7 +17,7 @@
     "serve": "serve ./dist/"
   },
   "files": [
-    "dist/*.js"
+    "dist/*"
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.4.5",
