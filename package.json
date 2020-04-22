@@ -1,0 +1,33 @@
+{
+  "name": "v-autofocus",
+  "version": "0.1.0",
+  "description": "Vue autofocus directive",
+  "main": "dist/v-autofocus.common.js",
+  "module": "index.js",
+  "unpkg": "dist/v-autofocus.umd.js",
+  "jsdelivr": "dist/v-autofocus.umd.js",
+  "author": "Marcos Neves",
+  "license": "MIT",
+  "scripts": {
+    "start": "vue serve App.vue",
+    "build": "yarn build:lib && yarn build:demo && yarn size",
+    "build:lib": "vue build --target lib ./index.js",
+    "build:demo": "cp -f ./public/demo.html ./dist/demo.html",
+    "size": "size-limit",
+    "serve": "serve ./dist/"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^4.4.5",
+    "size-limit": "^4.4.5"
+  },
+  "size-limit": [
+    {
+      "path": "dist/v-autofocus.umd.min.js",
+      "limit": "614"
+    },
+    {
+      "path": "dist/v-autofocus.common.js",
+      "limit": "609"
+    }
+  ]
+}
