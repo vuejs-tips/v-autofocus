@@ -1,6 +1,6 @@
 const directive = {
   inserted: el => el.focus(),
-  install: Vue => Vue.directive("autofocus", directive),
+  install: Vue => Vue.directive("autofocus", directive)
 }
 
 // auto install directive if Vue is global

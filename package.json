@@ -16,6 +16,9 @@
     "size": "size-limit",
     "serve": "serve ./dist/"
   },
+  "files": [
+    "dist/*.js"
+  ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.4.5",
     "size-limit": "^4.4.5"
